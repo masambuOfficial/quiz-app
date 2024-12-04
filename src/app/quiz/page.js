@@ -32,7 +32,9 @@ export default function QuizPage() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col items-center justify-center min-h-screen"
+   
+    >
       {!isQuizFinished ? (
         questions.length > 0 ? (
           <QuestionCard
