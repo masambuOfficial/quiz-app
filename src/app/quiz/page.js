@@ -46,8 +46,8 @@ export default function QuizPage() {
         )
       ) : (
         <div className="text-center">
-          <h2 className="text-3xl font-bold">Quiz Finished!</h2>
-          <p className="text-xl">Your Score: {score}/{questions.length}</p>
+          <h2 className="text-3xl text-white font-bold">Quiz Finished!</h2>
+          <p className="text-xl text-orange-300">Your Score: {score}/{questions.length}</p>
         </div>
       )}
     </div>
